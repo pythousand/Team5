@@ -70,3 +70,7 @@ ConvNeXt, ResNet v2, DenseNet, MobileNet v2/v3, Inception v3, BEIT, SWIN, YOLO v
 모델 앙상블을 진행하였습니다.
 
 모든 모델들의 loss와 acc를 측정한 결과, 단일 모델인 BEIT가 loss 0.5846, acc 87.33%로 가장 높은 성능을 보였습니다. 따라서 BEIT를 감정 분석 모델로 선정하였습니다.
+> ### Prerequisites
+
+Before using the library or REST API, you must sign up on the suno.ai website and obtain your cookie as shown in this screenshot.
+You can find cookie from the Web Browser's Developer Tools -> Network Tab
