@@ -75,6 +75,8 @@ ConvNeXt, ResNet v2, DenseNet, MobileNet v2/v3, Inception v3, BEIT, SWIN, YOLO v
 Before using the library or REST API, you must sign up on the suno.ai website and obtain your cookie as shown in this screenshot.
 You can find cookie from the Web Browser's Developer Tools -> Network Tab -> Filter: _clerk_js_version
 ![image](images/cookie.png)
-'''
+
+> ### Input your cookie 
+```
 cookies='Your Cookie'
-'''
+```
