@@ -80,3 +80,6 @@ You can find cookie from the Web Browser's Developer Tools -> Network Tab -> Fil
 ```
 cookies='Your Cookie'
 ```
+
+> ### 기타
+이 비공식 API는 Suno AI 서비스와 상호 작용하는 편리한 방법을 제공하지만 생성된 음악에 대한 소유권이나 권리를 주장하지 않습니다. 플랫폼을 사용할 때 Suno AI의 서비스 약관을 존중하십시오.
