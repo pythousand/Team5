@@ -1,7 +1,7 @@
 # 감정 분석 모델을 활용한 음악 생성 프로그램<br/>Muisc Face
 
 ## :alarm_clock: 개발 기간: 5월 9일(목) ~ 6월 4일(수)
-
+![image](images/musicface.png)
 ## 개발환경:
 |IDE|프로그래밍<br/>언어|
 |------|---|
