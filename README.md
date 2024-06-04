@@ -34,12 +34,12 @@
 > ### EDA
 1. Json 파일을 DataFrame으로 변환 후 각종 정보를 확인했습니다.
 
-각 이미지 데이터의 라벨링, 나이, 성별, 배경정보, Bounding Box 정보 등 각종 정보가 처리되어 있었습니다.
+각 이미지 데이터의 라벨링, 나이, 성별, 배경정보, Bounding Box 정보 등 각종 정보가 처리되어 있습니다.
 ![image](https://github.com/DPTure/Team5/assets/155731578/3a5cbfc6-8756-4f12-a58d-1ef9186dd7bf)
 
 2. 기초 통계 정보를 확인했습니다.
 
-3. 간단한 시각화를 통해 데이터의 분포를 확인했습니다. 감정에 대한 데이터 불균형은 존재하지 않았습니다.
+3. 간단한 시각화를 통해 데이터의 분포를 확인했습니다. 감정에 대한 데이터 불균형은 존재하지 않습니다.
 ![image](https://github.com/DPTure/Team5/assets/155731578/695528c1-6612-4e9c-83d9-92f7e9ab0669)
 ![image](https://github.com/DPTure/Team5/assets/155731578/80930595-dadf-401e-a41a-486d11f59671)
 ![image](https://github.com/DPTure/Team5/assets/155731578/463d0ce4-4755-4953-adb3-fe37ae62503b)
@@ -67,9 +67,9 @@ crop & seg
 > ### Modeling & Model ensemble
 
 ConvNeXt, ResNet v2, DenseNet, MobileNet v2/v3, Inception v3, BEIT, SWIN, YOLO v8 모델을 돌려보고 loss 및 acc를 측정하였고,
-모델 앙상블을 진행하였습니다.
+모델 앙상블을 진행했습니다.
 
-모든 모델들의 loss와 acc를 측정한 결과, 단일 모델인 BEIT가 loss 0.5846, acc 87.33%로 가장 높은 성능을 보였습니다. 따라서 BEIT를 감정 분석 모델로 선정하였습니다.
+모든 모델들의 loss와 acc를 측정한 결과, 단일 모델인 BEIT가 loss 0.5846, acc 87.33%로 가장 높은 성능을 보였습니다. 따라서 BEIT를 감정 분석 모델로 선정했습니다.
 > ### Prerequisites
 
 Before using the library or REST API, you must sign up on the suno.ai website and obtain your cookie as shown in this screenshot.
