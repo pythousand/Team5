@@ -1,4 +1,4 @@
-# 감정 분석 모델을 활용한 음악 생성 프로그램<br/>Muisc Face
+# 감정 분석 모델을 활용한 음악 생성 프로그램<br/>Music Face
 
 ## :alarm_clock: 개발 기간: 5월 9일(목) ~ 6월 4일(수)
 ![image](images/musicface.png)
@@ -74,12 +74,17 @@ ConvNeXt, ResNet v2, DenseNet, MobileNet v2/v3, Inception v3, BEIT, SWIN, YOLO v
 
 Before using the library or REST API, you must sign up on the suno.ai website and obtain your cookie as shown in this screenshot.
 You can find cookie from the Web Browser's Developer Tools -> Network Tab -> Filter: _clerk_js_version
+
+Music Face에서 사용되는 모델의 경우 용량이 큰 관계로 구글 드라이브 링크를 첨부해드립니다. Submission/Models 폴더 내에 있는 best_model.pt, swinv2_ages.pt, swinv2_gender.pt 파일을 다운받아 이용해주세요.
+
 ![image](images/cookie.png)
 
 > ### Input your cookie 
 ```
 cookies='Your Cookie'
 ```
+
+[Google Drive](https://drive.google.com/drive/u/0/folders/1BNF7E2JYfD7p42UU6ymU-nXpWdB1cFyD)
 
 > ### 기타
 이 비공식 API는 Suno AI 서비스와 상호 작용하는 편리한 방법을 제공하지만 생성된 음악에 대한 소유권이나 권리를 주장하지 않습니다. 플랫폼을 사용할 때 Suno AI의 서비스 약관을 존중하십시오.
