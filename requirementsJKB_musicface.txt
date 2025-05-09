@@ -1,0 +1,7 @@
+timm
+mediapipe
+SunoAI
+gradio
+transformers==4.40.0
+accelerate
+torch
